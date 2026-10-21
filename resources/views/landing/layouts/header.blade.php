@@ -7,33 +7,17 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
                                     <div class="logo">
-                                        <a href="index.html">
-                                            <img src="img/logo/logo.png" alt="Logo">
+                                        <a href="#home">
+                                            <img src="{{ asset('landing/img/logo/logo.png') }}" alt="Logo">
                                         </a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active menu-item-has-children"><a href="#">Home</a>
-                                                <ul class="submenu">
-                                                    <li class="active"><a href="index.html">Home One</a></li>
-                                                    <li><a href="index-2.html">Home Two</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Movie</a>
-                                                <ul class="submenu">
-                                                    <li><a href="movie.html">Movie</a></li>
-                                                    <li><a href="movie-details.html">Movie Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="tv-show.html">tv show</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li class="menu-item-has-children"><a href="#">blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">contacts</a></li>
+                                            <li class="active"><a href="#home">Home</a></li>
+                                            <li><a href="#movies">Movies</a></li>
+                                            <li><a href="#tv-series">TV Shows</a></li>
+                                            <li><a href="#services">Services</a></li>
+                                            <li><a href="{{ route('admin.dashboard') }}">Admin</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">
@@ -50,7 +34,7 @@
                                                     </select>
                                                 </form>
                                             </li>
-                                            <li class="header-btn"><a href="#" class="btn">Sign In</a></li>
+                                            <li class="header-btn"><a href="{{ route('admin.page', 'authentication-signin') }}" class="btn">Sign In</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -61,7 +45,7 @@
                                 <div class="close-btn"><i class="fas fa-times"></i></div>
 
                                 <nav class="menu-box">
-                                    <div class="nav-logo"><a href="index.html"><img src="img/logo/logo.png" alt="" title=""></a>
+                                    <div class="nav-logo"><a href="#home"><img src="{{ asset('landing/img/logo/logo.png') }}" alt="" title=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

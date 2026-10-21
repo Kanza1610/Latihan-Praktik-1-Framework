@@ -3,7 +3,7 @@
 <main>
 
             <!-- banner-area -->
-            <section class="banner-area banner-bg" data-background="img/banner/banner_bg01.jpg">
+            <section id="home" class="banner-area banner-bg" data-background="{{ asset('landing/img/banner/banner_bg01.jpg') }}">
                 <div class="container custom-container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
@@ -35,8 +35,8 @@
             <!-- banner-area-end -->
 
             <!-- up-coming-movie-area -->
-            <section class="ucm-area ucm-bg" data-background="img/bg/ucm_bg.jpg">
-                <div class="ucm-bg-shape" data-background="img/bg/ucm_bg_shape.png"></div>
+            <section id="movies" class="ucm-area ucm-bg" data-background="{{ asset('landing/img/bg/ucm_bg.jpg') }}">
+                <div class="ucm-bg-shape" data-background="{{ asset('landing/img/bg/ucm_bg_shape.png') }}"></div>
                 <div class="container">
                     <div class="row align-items-end mb-55">
                         <div class="col-lg-6">
@@ -66,11 +66,11 @@
                             <div class="ucm-active owl-carousel">
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster01.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster01.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">Women's Day</a></h5>
+                                            <h5 class="title"><a href="#movies">Women's Day</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -86,11 +86,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster02.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster02.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Perfect Match</a></h5>
+                                            <h5 class="title"><a href="#movies">The Perfect Match</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -106,11 +106,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster03.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster03.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Dog Woof</a></h5>
+                                            <h5 class="title"><a href="#movies">The Dog Woof</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -126,11 +126,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster04.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster04.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Easy Reach</a></h5>
+                                            <h5 class="title"><a href="#movies">The Easy Reach</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -146,11 +146,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster05.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster05.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Cooking</a></h5>
+                                            <h5 class="title"><a href="#movies">The Cooking</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -170,11 +170,11 @@
                             <div class="ucm-active owl-carousel">
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster05.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster05.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Cooking</a></h5>
+                                            <h5 class="title"><a href="#movies">The Cooking</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -190,11 +190,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster06.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster06.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Hikers</a></h5>
+                                            <h5 class="title"><a href="#movies">The Hikers</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -210,11 +210,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster07.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster07.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">Life Quotes</a></h5>
+                                            <h5 class="title"><a href="#movies">Life Quotes</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -230,11 +230,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster08.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster08.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Beachball</a></h5>
+                                            <h5 class="title"><a href="#movies">The Beachball</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -250,11 +250,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster03.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster03.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Dog Woof</a></h5>
+                                            <h5 class="title"><a href="#movies">The Dog Woof</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -274,11 +274,11 @@
                             <div class="ucm-active owl-carousel">
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster01.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster01.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">Women's Day</a></h5>
+                                            <h5 class="title"><a href="#movies">Women's Day</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -294,11 +294,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster02.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster02.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Perfect Match</a></h5>
+                                            <h5 class="title"><a href="#movies">The Perfect Match</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -314,11 +314,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster03.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster03.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Dog Woof</a></h5>
+                                            <h5 class="title"><a href="#movies">The Dog Woof</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -334,11 +334,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster04.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster04.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Easy Reach</a></h5>
+                                            <h5 class="title"><a href="#movies">The Easy Reach</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -354,11 +354,11 @@
                                 </div>
                                 <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src="img/poster/ucm_poster05.jpg" alt=""></a>
+                                        <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster05.jpg') }}" alt=""></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html">The Cooking</a></h5>
+                                            <h5 class="title"><a href="#movies">The Cooking</a></h5>
                                             <span class="date">2021</span>
                                         </div>
                                         <div class="bottom">
@@ -380,13 +380,13 @@
             <!-- up-coming-movie-area-end -->
 
             <!-- services-area -->
-            <section class="services-area services-bg" data-background="img/bg/services_bg.jpg">
+            <section id="services" class="services-area services-bg" data-background="{{ asset('landing/img/bg/services_bg.jpg') }}">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="services-img-wrap">
-                                <img src="img/images/services_img.jpg" alt="">
-                                <a href="img/images/services_img.jpg" class="download-btn" download>Download <img src="fonts/download.svg" alt=""></a>
+                                <img src="{{ asset('landing/img/images/services_img.jpg') }}" alt="">
+                                <a href="{{ asset('landing/img/images/services_img.jpg') }}" class="download-btn" download>Download <img src="{{ asset('landing/fonts/download.svg') }}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -427,7 +427,7 @@
             <!-- services-area-end -->
 
             <!-- top-rated-movie -->
-            <section class="top-rated-movie tr-movie-bg" data-background="img/bg/tr_movies_bg.jpg">
+            <section id="top-rated" class="top-rated-movie tr-movie-bg" data-background="{{ asset('landing/img/bg/tr_movies_bg.jpg') }}">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
@@ -451,11 +451,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster01.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster01.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Women's Day</a></h5>
+                                        <h5 class="title"><a href="#movies">Women's Day</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -473,11 +473,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-three">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster02.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster02.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Perfect Match</a></h5>
+                                        <h5 class="title"><a href="#movies">The Perfect Match</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -495,11 +495,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster03.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster03.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Dog Woof</a></h5>
+                                        <h5 class="title"><a href="#movies">The Dog Woof</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -517,11 +517,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-three">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster04.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster04.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Easy Reach</a></h5>
+                                        <h5 class="title"><a href="#movies">The Easy Reach</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -539,11 +539,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster05.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster05.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Cooking</a></h5>
+                                        <h5 class="title"><a href="#movies">The Cooking</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -561,11 +561,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-three">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster06.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster06.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Hikaru</a></h5>
+                                        <h5 class="title"><a href="#movies">The Hikaru</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -583,11 +583,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster07.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster07.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Life Quotes</a></h5>
+                                        <h5 class="title"><a href="#movies">Life Quotes</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -605,11 +605,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-three">
                             <div class="movie-item mb-60">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster08.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster08.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Beachball</a></h5>
+                                        <h5 class="title"><a href="#movies">The Beachball</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -630,7 +630,7 @@
             <!-- top-rated-movie-end -->
 
             <!-- live-area -->
-            <section class="live-area live-bg fix" data-background="img/bg/live_bg.jpg">
+            <section class="live-area live-bg fix" data-background="{{ asset('landing/img/bg/live_bg.jpg') }}">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-5 col-lg-6">
@@ -655,7 +655,7 @@
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="live-movie-img wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.8s">
-                                <img src="img/images/live_img.png" alt="">
+                                <img src="{{ asset('landing/img/images/live_img.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -664,7 +664,7 @@
             <!-- live-area-end -->
 
             <!-- tv-series-area -->
-            <section class="tv-series-area tv-series-bg" data-background="img/bg/tv_series_bg.jpg">
+            <section id="tv-series" class="tv-series-area tv-series-bg" data-background="{{ asset('landing/img/bg/tv_series_bg.jpg') }}">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
@@ -678,11 +678,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="movie-item mb-50">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster09.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster09.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Women's Day</a></h5>
+                                        <h5 class="title"><a href="#movies">Women's Day</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -700,11 +700,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="movie-item mb-50">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster10.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster10.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Perfect Match</a></h5>
+                                        <h5 class="title"><a href="#movies">The Perfect Match</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -722,11 +722,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="movie-item mb-50">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster03.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster03.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Dog Woof</a></h5>
+                                        <h5 class="title"><a href="#movies">The Dog Woof</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -744,11 +744,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="movie-item mb-50">
                                 <div class="movie-poster">
-                                    <a href="movie-details.html"><img src="img/poster/ucm_poster04.jpg" alt=""></a>
+                                    <a href="#movies"><img src="{{ asset('landing/img/poster/ucm_poster04.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">The Easy Reach</a></h5>
+                                        <h5 class="title"><a href="#movies">The Easy Reach</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -769,7 +769,7 @@
             <!-- tv-series-area-end -->
 
             <!-- newsletter-area -->
-            <section class="newsletter-area newsletter-bg" data-background="img/bg/newsletter_bg.jpg">
+            <section id="newsletter" class="newsletter-area newsletter-bg" data-background="{{ asset('landing/img/bg/newsletter_bg.jpg') }}">
                 <div class="container">
                     <div class="newsletter-inner-wrap">
                         <div class="row align-items-center">

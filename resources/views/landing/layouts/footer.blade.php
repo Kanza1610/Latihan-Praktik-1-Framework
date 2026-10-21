@@ -5,18 +5,18 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                                    <a href="#home"><img src="{{ asset('landing/img/logo/logo.png') }}" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-lg-9">
                                 <div class="footer-menu">
                                     <nav>
                                         <ul class="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="index.html">Movie</a></li>
-                                            <li><a href="index.html">tv show</a></li>
-                                            <li><a href="index.html">pages</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#movies">Movie</a></li>
+                                            <li><a href="#tv-series">tv show</a></li>
+                                            <li><a href="{{ route('admin.dashboard') }}">Admin</a></li>
+                                            <li><a href="#services">Services</a></li>
                                         </ul>
                                         <div class="footer-search">
                                             <form action="#">
@@ -65,7 +65,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="payment-method-img text-center text-md-right">
-                                <img src="img/images/card_img.png" alt="img">
+                                <img src="{{ asset('landing/img/images/card_img.png') }}" alt="img">
                             </div>
                         </div>
                     </div>
